@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #ff9900, #e6e6e6);
+    overflow: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 28rem;
+    position: fixed; /* Fija el contenedor de inicio de sesión */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el contenedor */
+}
+
+h2 {
+    text-align: center;
+    color: #ff9900;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+    color: #555;
+}
+
+input {
+    padding: 0.5rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    width: calc(100% - 1rem);
+}
+
+.forgot-password {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 0.625rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a5568;
+}

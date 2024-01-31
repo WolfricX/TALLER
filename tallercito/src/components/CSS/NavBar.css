@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem; /* Reduje el padding */
+  background-color: #4a5568;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 1rem; /* Reduje el tamaño de la fuente */
+  color: white;
+  margin-right: 0.75rem; /* Reduje el margen derecho */
+}
+
+.centered-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+  padding: 1rem 2rem; /* Reduje el padding */
+  border: none;
+  border-radius: 0.25rem; /* Reduje el radio del borde */
+  cursor: pointer;
+  margin-right: 0.75rem; /* Reduje el margen derecho */
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #4a5568;
+  }
+}
+
+.right-button {
+  margin-left: auto;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1rem; /* Reduje el padding */
+  border: none;
+  border-radius: 0.25rem; /* Reduje el radio del borde */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+body {
+  margin-top: 3rem; /* Reduje el margen superior */
+}
