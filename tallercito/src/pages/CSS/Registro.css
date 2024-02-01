@@ -1,0 +1,23 @@
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.confirmation-wait-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.confirmation-wait-container h2 {
+  color: #333;
+}
+
+.confirmation-wait-container p {
+  color: #666;
+  margin-top: 10px;
+}
